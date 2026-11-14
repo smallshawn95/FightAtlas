@@ -1,0 +1,135 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 56;
+    objects = {
+        AF7100000000000000000020 /* FightAtlasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightAtlasApp.swift; sourceTree = "<group>"; };
+        AF7100000000000000000040 /* FightAtlasApp.swift */ = {isa = PBXBuildFile; fileRef = AF7100000000000000000020; };
+        AF7100000000000000000021 /* MoveCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveCatalog.swift; sourceTree = "<group>"; };
+        AF7100000000000000000041 /* MoveCatalog.swift */ = {isa = PBXBuildFile; fileRef = AF7100000000000000000021; };
+        AF7100000000000000000022 /* AtlasStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlasStyle.swift; sourceTree = "<group>"; };
+        AF7100000000000000000042 /* AtlasStyle.swift */ = {isa = PBXBuildFile; fileRef = AF7100000000000000000022; };
+        AF7100000000000000000023 /* FighterGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterGalleryView.swift; sourceTree = "<group>"; };
+        AF7100000000000000000043 /* FighterGalleryView.swift */ = {isa = PBXBuildFile; fileRef = AF7100000000000000000023; };
+        AF7100000000000000000024 /* MoveListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveListView.swift; sourceTree = "<group>"; };
+        AF7100000000000000000044 /* MoveListView.swift */ = {isa = PBXBuildFile; fileRef = AF7100000000000000000024; };
+        AF7100000000000000000025 /* MoveDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveDetailView.swift; sourceTree = "<group>"; };
+        AF7100000000000000000045 /* MoveDetailView.swift */ = {isa = PBXBuildFile; fileRef = AF7100000000000000000025; };
+        AF7100000000000000000026 /* TrainingVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingVideo.swift; sourceTree = "<group>"; };
+        AF7100000000000000000046 /* TrainingVideo.swift */ = {isa = PBXBuildFile; fileRef = AF7100000000000000000026; };
+        AF7100000000000000000027 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+        AF7100000000000000000047 /* GuideView.swift */ = {isa = PBXBuildFile; fileRef = AF7100000000000000000027; };
+        AF7100000000000000000028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+        AF7100000000000000000048 /* Assets.xcassets */ = {isa = PBXBuildFile; fileRef = AF7100000000000000000028; };
+        AF7100000000000000000029 /* HadokenTraining.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = HadokenTraining.mp4; sourceTree = "<group>"; };
+        AF7100000000000000000049 /* HadokenTraining.mp4 */ = {isa = PBXBuildFile; fileRef = AF7100000000000000000029; };
+        AF710000000000000000002A /* CharacterGuideVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterGuideVideo.swift; sourceTree = "<group>"; };
+        AF710000000000000000004A /* CharacterGuideVideo.swift */ = {isa = PBXBuildFile; fileRef = AF710000000000000000002A; };
+        AF7100000000000000000003 = {isa = PBXGroup; children = (AF7100000000000000000005, AF7100000000000000000004,); sourceTree = "<group>"; };
+        AF7100000000000000000005 = {isa = PBXGroup; children = (AF7100000000000000000006, AF7100000000000000000007, AF7100000000000000000020, AF7100000000000000000021, AF7100000000000000000028,); path = FightAtlas; sourceTree = "<group>"; };
+        AF7100000000000000000006 = {isa = PBXGroup; children = (AF7100000000000000000022, AF7100000000000000000023, AF7100000000000000000024, AF7100000000000000000025, AF7100000000000000000026, AF7100000000000000000027, AF710000000000000000002A,); path = Views; sourceTree = "<group>"; };
+        AF7100000000000000000007 = {isa = PBXGroup; children = (AF7100000000000000000029,); path = Resources; sourceTree = "<group>"; };
+        AF7100000000000000000004 = {isa = PBXGroup; children = (AF7100000000000000000008,); name = Products; sourceTree = "<group>"; };
+        AF7100000000000000000009 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (AF7100000000000000000040, AF7100000000000000000041, AF7100000000000000000042, AF7100000000000000000043, AF7100000000000000000044, AF7100000000000000000045, AF7100000000000000000046, AF7100000000000000000047, AF710000000000000000004A,); runOnlyForDeploymentPostprocessing = 0; };
+        AF710000000000000000000A = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (AF7100000000000000000048, AF7100000000000000000049,); runOnlyForDeploymentPostprocessing = 0; };
+        AF710000000000000000000B = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+        AF710000000000000000000C = {isa = XCConfigurationList; buildConfigurations = (AF710000000000000000000E, AF710000000000000000000F,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        AF710000000000000000000D = {isa = XCConfigurationList; buildConfigurations = (AF7100000000000000000010, AF7100000000000000000011,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        AF710000000000000000000E /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CLANG_ENABLE_MODULES = YES;
+                ENABLE_USER_SCRIPT_SANDBOXING = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+                SDKROOT = iphoneos;
+                SWIFT_VERSION = 5.0;
+                DEBUG_INFORMATION_FORMAT = dwarf;
+                ENABLE_TESTABILITY = YES;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            };
+            name = Debug;
+        };
+        AF710000000000000000000F /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CLANG_ENABLE_MODULES = YES;
+                ENABLE_USER_SCRIPT_SANDBOXING = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+                SDKROOT = iphoneos;
+                SWIFT_VERSION = 5.0;
+                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+                SWIFT_COMPILATION_MODE = wholemodule;
+            };
+            name = Release;
+        };
+        AF7100000000000000000010 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                GENERATE_INFOPLIST_FILE = YES;
+                INFOPLIST_KEY_CFBundleDisplayName = "快打旋風 6 招式圖鑑";
+                INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+                INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+                INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = com.fightatlas.sf6;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Debug;
+        };
+        AF7100000000000000000011 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                GENERATE_INFOPLIST_FILE = YES;
+                INFOPLIST_KEY_CFBundleDisplayName = "快打旋風 6 招式圖鑑";
+                INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+                INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+                INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = com.fightatlas.sf6;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Release;
+        };
+        AF7100000000000000000008 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FightAtlas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        AF7100000000000000000002 /* FightAtlas */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = AF710000000000000000000D;
+            buildPhases = (AF7100000000000000000009, AF710000000000000000000B, AF710000000000000000000A,);
+            buildRules = ();
+            dependencies = ();
+            name = FightAtlas;
+            productName = FightAtlas;
+            productReference = AF7100000000000000000008;
+            productType = "com.apple.product-type.application";
+        };
+        AF7100000000000000000001 /* Project object */ = {
+            isa = PBXProject;
+            attributes = { BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1630; LastUpgradeCheck = 1630; };
+            buildConfigurationList = AF710000000000000000000C;
+            compatibilityVersion = "Xcode 14.0";
+            developmentRegion = "zh-Hant";
+            hasScannedForEncodings = 0;
+            knownRegions = ("zh-Hant", en, Base,);
+            mainGroup = AF7100000000000000000003;
+            productRefGroup = AF7100000000000000000004;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (AF7100000000000000000002,);
+        };
+    };
+    rootObject = AF7100000000000000000001;
+}
